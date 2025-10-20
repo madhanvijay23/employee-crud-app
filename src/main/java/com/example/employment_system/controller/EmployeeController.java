@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/employees")
-@CrossOrigin(origins = "http://localhost:3000")
+@RequestMapping("/")
+@CrossOrigin(origins = "https://employee-crud-backend-app.onrender.com")
 public class EmployeeController {
 
     @Autowired
@@ -68,3 +68,4 @@ public class EmployeeController {
         return ResponseEntity.ok(employees);
     }
 }
+
