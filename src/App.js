@@ -4,7 +4,7 @@ import { Search, Plus, Edit2, Trash2, X, Save, UserPlus } from 'lucide-react';
 import './App.css';
 
 // API Base URL - Change this if your backend runs on different port
-const API_URL = 'http://localhost:8080/api/employees';
+const API_URL = 'https://employee-crud-backend-app.onrender.com';
 
 function App() {
   // State Management
